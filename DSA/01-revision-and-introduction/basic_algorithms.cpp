@@ -143,14 +143,14 @@ void eratosten( unsigned n )
     }
 }
 
-//
-//int main() 
-//{
-//
-//    const unsigned n = 1200;
-//    for ( unsigned i = 0; i < n; i++ ) sieve[i] = false;
-//
-//    eratosten( n );
-//
-//    return 0;
-//}
+
+int main() 
+{
+
+    const unsigned n = 1200;
+    for ( unsigned i = 0; i < n; i++ ) sieve[i] = false;
+
+    eratosten( n );
+
+    return 0;
+}
